@@ -7,7 +7,7 @@ function ProjectView() {
   const [match, params] = useRoute("/arquive/project/:id");
   const [location, setLocation] = useLocation();
 
-  // LISTA de ids dos projetos
+  
   const projectIds = bd.map(p => p.id);
 
   useEffect(() => {

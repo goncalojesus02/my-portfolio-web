@@ -1,5 +1,4 @@
 import { useRoute } from "wouter";
-import Footer from "./Footer";
 import Navegation from "./Navegation";
 import ProjectView from "./ProjectView";
 
