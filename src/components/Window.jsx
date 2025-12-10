@@ -25,7 +25,7 @@ const reverse = [...bd].reverse();
             src={selectedProject.src[0]}
             alt={selectedProject.title}
             className="max-w-[80%] max-h-[80%] object-contain"
-            onClick={(e) => e.stopPropagation()} // Impede o fechamento ao clicar na imagem
+            onClick={(e) => e.stopPropagation()} 
           />
 
           {/* Botão para navegar para a página do projeto */}

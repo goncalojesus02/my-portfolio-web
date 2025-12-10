@@ -9,18 +9,18 @@ function SplitPage() {
 
   return (
     <>
-      <div className="flex flex-col gap-[2rem] md:gap-[10rem] h-[100vh] md:flex-row min-h-0 h-[100%]">
+      <section className="flex flex-col gap-[2rem] md:gap-[10rem] h-[100vh] md:flex-row min-h-0 h-[100%]">
         {/* ESQUERDO: Navegação */}
-        <div className=" md:w-1/2 bg-gradient-to-b from-[#00OFF] from-[0%] to-white to-[10%] md:bg-gradient-to-r from-[#00f] from-[1%] to-white to-[5%]">
+        <section className=" md:w-1/2 bg-gradient-to-b from-[#00OFF] from-[0%] to-white to-[10%] md:bg-gradient-to-r from-[#00f] from-[1%] to-white to-[5%]">
           <Navegation />
-        </div>
+        </section>
 
         {/* DIREITO: Conteúdo do projeto */}
-        <div className="md:w-1/2 h-[vh] overflow-y-auto bg-gradient-to-t from-[#0000FF] from-[0%] to-white to-[10%] md:bg-gradient-to-l from-[#00f] from-[1%] to-white to-[5%] ">
+        <section className="md:w-1/2 h-[vh] overflow-y-auto bg-gradient-to-t from-[#0000FF] from-[0%] to-white to-[10%] md:bg-gradient-to-l from-[#00f] from-[1%] to-white to-[5%] ">
           
           <ProjectView id={projectId} />
-        </div>
-      </div>
+        </section>
+      </section>
     </>
   );
 }
