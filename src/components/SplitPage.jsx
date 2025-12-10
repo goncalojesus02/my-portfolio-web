@@ -1,0 +1,28 @@
+import { useRoute } from "wouter";
+import Footer from "./Footer";
+import Navegation from "./Navegation";
+import ProjectView from "./ProjectView";
+
+function SplitPage() {
+  const [match, params] = useRoute("/arquive/project/:id");
+  const projectId = params?.id;
+
+  return (
+    <>
+      <div className="flex flex-col gap-[2rem] md:gap-[10rem] h-[100vh] md:flex-row min-h-0 h-[100%]">
+        {/* ESQUERDO: Navegação */}
+        <div className=" md:w-1/2 bg-gradient-to-b from-[#00OFF] from-[0%] to-white to-[10%] md:bg-gradient-to-r from-[#00f] from-[1%] to-white to-[5%]">
+          <Navegation />
+        </div>
+
+        {/* DIREITO: Conteúdo do projeto */}
+        <div className="md:w-1/2 h-[vh] overflow-y-auto bg-gradient-to-t from-[#0000FF] from-[0%] to-white to-[10%] md:bg-gradient-to-l from-[#00f] from-[1%] to-white to-[5%] ">
+          
+          <ProjectView id={projectId} />
+        </div>
+      </div>
+    </>
+  );
+}
+
+export default SplitPage;
