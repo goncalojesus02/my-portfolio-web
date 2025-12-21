@@ -20,7 +20,7 @@ function ProjectView() {
   
   const getNextProjectId = () => {
     const currentIndex = projectIds.indexOf(Number(params.id));
-    const nextIndex = (currentIndex + 1) % projectIds.length; // ciclo
+    const nextIndex = (currentIndex + 1) % projectIds.length; 
     return projectIds[nextIndex];
   };
 

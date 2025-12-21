@@ -2,7 +2,7 @@ import { useState } from "react";
 import { Link } from "wouter";
 import bd from "./bd.json";
 
-function Navegation() {
+function PagNav() {
   const reverse = [...bd].reverse();
   const [selectedProject, setSelectedProject] = useState(null);
 
@@ -55,4 +55,4 @@ function Navegation() {
   );
 }
 
-export default Navegation;
+export default PagNav;
