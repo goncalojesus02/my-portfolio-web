@@ -6,35 +6,36 @@ import AboutView from "./AboutView";
 function ProjectView() {
   const [project, setProject] = useState(null);
   const [match, params] = useRoute("/arquive/project/:id");
-  const [location, setLocation] = useLocation();
+  const [location, setLocation] = useLocation(); // USAR SETLOCATION PARA NAVEGACAO ENTRE PROJETOS 
 
 
   const projectIds = bd.map(p => p.id);
 
   useEffect(() => {
+    // ATUALIZA URL E PAG PROJETO COM ID CERTO
     if (match) {
       const found = bd.find((p) => p.id === Number(params.id));
       setProject(found || null);
     }
   }, [match, params]);
 
-
+  // LOGICA PARA O PROXIMO PROJETO 
   const getNextProjectId = () => {
     const currentIndex = projectIds.indexOf(Number(params.id));
     const nextIndex = (currentIndex + 1) % projectIds.length;
     return projectIds[nextIndex];
   };
 
-
+  // FUNCAO PARA O PROJETO SEGUINTE COM SETLOCATION 
   const handleNextProject = () => {
     const nextId = getNextProjectId();
     setLocation(`/arquive/project/${nextId}`);
   };
 
-  if (!project) return <section></section>;
+  if (!project) return <section>ESTE PROJETO AINDA NAO ESTA DISPONIVEL</section>; // SE O PROJETO FOR NULO MOSTRA A MSG 
   return (
     <section className="p-[0.4rem] text-[#000000]">
-
+      {/* RENDERIZAR NOVA COMPONENTE ABOUTVIEW SE ID FOR 13, SE FOR DIFERENTE RENDERIZA PAGINA NORMAL E MOSTRA BTN TITULO TEXTO IMG... O CONTEUDO DO PROJETO  */}
       {project.id === 13 ? (
         <AboutView project={project} />
       ) : (

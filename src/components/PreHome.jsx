@@ -5,20 +5,19 @@ import { Link } from "wouter";
 
 const HomePage = () => {
   const animacao = useRef(null);
-
   const totalPixels = useRef(Math.floor(Math.random() * 40) + 20).current;
   const columns = useRef(Math.floor(Math.random() * 8) + 3).current;
   const rows = Math.ceil(totalPixels / columns);
 
 
   useEffect(() => {
+
+    // PX CONSTRUCAO GRELHA LINHA COLUNA QUADRADOS
     const container = animacao.current;
     const pixels = [];
-
     const pixelWidth = window.innerWidth / columns;
     const pixelHeight = window.innerHeight / rows;
 
-    // px
     for (let i = 0; i < totalPixels; i++) {
       const row = Math.floor(i / columns);
       const col = i % columns;
@@ -34,14 +33,14 @@ const HomePage = () => {
       pixels.push(pixel);
     }
 
-    // RANDOM ORDER
+    // ORDEM ALEATORIA PX
     const ordem = pixels.map((_, i) => i);
     for (let i = ordem.length - 1; i > 0; i--) {
       const o = Math.floor(Math.random() * (i + 1));
       [ordem[i], ordem[o]] = [ordem[o], ordem[i]];
     }
 
-    // ANIMATION
+    // ANIMATION COM GSAP PX AZUIS
     const timeoutId = setTimeout(() => {
       ordem.forEach((index, i) => {
         gsap.to(pixels[index], {
@@ -62,7 +61,7 @@ const HomePage = () => {
 
   return (
     <>
-
+      
       <section
         ref={animacao}
         className="fixed top-0 left-0 w-screen h-screen overflow-hidden"
