@@ -36,7 +36,7 @@ function ProjectView() {
   return (
     <section className="p-[0.4rem] text-[#000000]">
       {/* RENDERIZAR NOVA COMPONENTE ABOUTVIEW SE ID FOR 13, SE FOR DIFERENTE RENDERIZA PAGINA NORMAL E MOSTRA BTN TITULO TEXTO IMG... O CONTEUDO DO PROJETO  */}
-      {project.id === 13 ? (
+      {project.id === 14 ? (
         <AboutView project={project} />
       ) : (
         <>
