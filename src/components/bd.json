@@ -66,8 +66,26 @@
         "btn2": "(proximo)",
         "info": "(+ info)"
     },
-    {
+        {
         "id": 7,
+        "separators": "↗ How Many Times Do You Think About The Roman Empire (2023)",
+        "title": "How Many Times Do You Think About The Roman Empire",
+        "btn": "(fechar)",
+        "text": "A sociedade romana influenciou tudo, desde a forma de governo dos Estados Unidos até sua linguagem e sua arquitetura. A cultura pop tem falado sobre o Império Romano há algum tempo ou feito alusão a ele de alguma forma, e não só por causa do filme que acreditamos que Musk gosta tanto, mas porque desde Game of Thrones, que claramente bebe de sua história em inúmeras ocasiões, até a série da HBO Roma, eles fizeram com que ele esteja presente nas nossas vidas muito mais do que poderia esperar.",
+        "src": [
+            "/public/img/hmt_roman_empirep4.jpg",
+            "/public/img/hmt_roman_empirep5.jpg",
+            "/public/img/hmt_roman_empirep1.jpg",
+            "/public/img/hmt_roman_empirep2.jpg",
+            "/public/img/hmt_roman_empirep3.jpg"
+        ],
+        "categories": "poster design",
+        "year": "2023",
+        "btn2": "(proximo)",
+        "info": "(+ info)"
+    },
+    {
+        "id": 8,
         "separators": " ↗ Rebranding Sintra (2024) ",
         "title": "Rebranding Sintra",
         "btn": "(fechar)",
@@ -84,7 +102,7 @@
         "info": "(+ info)"
     },
     {
-        "id": 8,
+        "id": 9,
         "separators": "↗ Gisela (2024) ",
         "title": "Gisela",
         "btn": "(fechar)",
@@ -100,7 +118,7 @@
         "info": "(+ info)"
     },
     {
-        "id": 9,
+        "id": 10,
         "separators": " ↗ (Re)edição especial Bichos (2024)",
         "title": "(Re)edição especial Bichos",
         "btn": "(fechar)",
@@ -115,7 +133,7 @@
         "info": "(+ info)"
     },
     {
-        "id": 10,
+        "id": 11,
         "separators": " ↗ Luca Zangrandi (2025)",
         "title": "Luca Zangrandi",
         "btn": "(fechar)",
@@ -131,7 +149,7 @@
         "info": "(+ info)"
     },
     {
-        "id": 11,
+        "id": 12,
         "separators": "↗ The Jesus Designed By The Divine (2025)",
         "title": "The Jesus Designed By The Divine",
         "btn": "(fechar)",
@@ -145,7 +163,7 @@
         "info": "(+ info)"
     },
     {
-        "id": 12,
+        "id": 13,
         "separators": "↗ WIP 01",
         "title": "WIP 01",
         "btn": "(fechar)",
@@ -172,7 +190,7 @@
         "info": "(+ info)"
     },
     {
-        "id": 13,
+        "id": 14,
         "separators": " ↗ GONÇALO JESUS ",
         "title": "GONÇALO JESUS",
         "btn": "(fechar)",

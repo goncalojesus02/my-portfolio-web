@@ -32,7 +32,7 @@ function ProjectView() {
     setLocation(`/arquive/project/${nextId}`);
   };
 
-  if (!project) return <section>ESTE PROJETO AINDA NAO ESTA DISPONIVEL</section>; // SE O PROJETO FOR NULO MOSTRA A MSG 
+  if (!project) return <section></section>; // SE O PROJETO FOR NULO MOSTRA SECCAO VAZIA
   return (
     <section className="p-[0.4rem] text-[#000000]">
       {/* RENDERIZAR NOVA COMPONENTE ABOUTVIEW SE ID FOR 13, SE FOR DIFERENTE RENDERIZA PAGINA NORMAL E MOSTRA BTN TITULO TEXTO IMG... O CONTEUDO DO PROJETO  */}
