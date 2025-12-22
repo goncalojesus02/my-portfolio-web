@@ -27,17 +27,7 @@
         "info": "(+ info)"
     },
 
-    {
-        "id":4,
-        "separators": " ↗ Ondulação (2022)",
-        "title": "Ondulação",
-        "btn": "(fechar)",
-        "text": "Ondulação é uma tipografia desenhada e construída para qualquer ocasião. Baseia-se nas ideias dos alfabetos modulares e nasce da necessidade de explorar, analisar e construir figuras curvas, naturais e vibrantes. Inspirado pelas ondas do mar, cada letra odulação sustenta o seu desenho em quatro módulos, diferentes entre si.",
-        "categories": "tipografia",
-        "year": "2022",
-        "btn2": "(proximo)",
-        "info": "(+ info)"
-    },
+    
 
     {
         "id": 5,
@@ -151,7 +141,9 @@
         "separators": " ↗ GONÇALO JESUS ",
         "title": "GONÇALO JESUS",
         "btn": "(fechar)",
-        "text": "Formação em Artes do Espetáculo e em Design de Comunicação pela Faculdade de Belas-Artes da Universidade de Lisboa. O foco da minha formação assenta na interseção entre as áreas da imagem, do texto e da performance, explorando o seu potencial visual e educativo. Interesso-me também pelas áreas da web (HTML, CSS e JavaScript), da imagem e da fotografia analógica. Como designer, desenvolvo soluções criativas com base conceptual, pragmática e experimental. Valorizo o processo criativo e acredito que a experimentação gera objetos gráficos relevantes e significativos.",
+        "src": ["/public/img/goncalojesus.jpg"],
+        "text1": "Formação em Artes do Espetáculo e em Design de Comunicação pela Faculdade de Belas-Artes da Universidade de Lisboa. O foco da minha formação assenta na interseção entre as áreas da imagem, do texto e da performance, explorando o seu potencial visual e educativo. \n \n Interesso-me também pelas áreas da web (HTML, CSS e JavaScript), da imagem e da fotografia analógica. Como designer, desenvolvo soluções criativas com base conceptual, pragmática e experimental. Valorizo o processo criativo e acredito que a experimentação gera objetos gráficos relevantes e significativos.",
+        "text2": "SERVIÇOS  \n identidade visual \n design editorial \n poster design \n web design  ",
         "categories": "WIP",
         "year": "© 2025 by GONÇALO JESUS",
         "btn2": "(proximo)",

@@ -29,7 +29,7 @@ function PagNav() {
       ))}
 
     
-      {selectedProject && selectedProject.src && (
+      {selectedProject && selectedProject.id && (
         <section
           className="fixed inset-0 flex flex-col items-center justify-center bg-opacity-30 backdrop-blur-sm z-50"
           onClick={closeImage}>
