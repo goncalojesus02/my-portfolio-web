@@ -58,13 +58,9 @@ function ProjectView() {
             </button>
           )}
 
-          <h1 className="text-3xl pb-4 md:pt-[1em]">
-            {project.title}
-          </h1>
+          <h1 className="text-3xl pb-4 md:pt-[1em]">{project.title}</h1>
 
-          <p className="whitespace-pre-line text-right pb-8">
-            {project.text}
-          </p>
+          <p className="whitespace-pre-line text-right pb-8">{project.text}</p>
 
           {project.src?.map((img, index) => (
             <img
