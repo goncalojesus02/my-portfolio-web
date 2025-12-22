@@ -62,13 +62,13 @@ const HomePage = () => {
 
   return (
     <>
-      
+
       <section
         ref={animacao}
         className="fixed top-0 left-0 w-screen h-screen overflow-hidden"
       ></section>
 
-      
+
       <section className=" absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 text-[#00f] ">
         <h1 className="text-3xl font-bold mb-4 text-center ">welcome to the new age</h1>
         <p className="text-lg text-center">
