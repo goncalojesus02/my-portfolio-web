@@ -107,10 +107,14 @@
         "title": "Gisela",
         "btn": "(fechar)",
         "text": "Um ato de coragem, um ato de revolução, um ato de amor, um ato sexual, um ato necessário, um ato atual. Assim nasce Gisela, uma adolescente de 15 anos que partilha com Portugal a sua primeira experiência sexual. Gisela renasce no presente para florescer e por isso queremos realçar Gisela. O projeto Gisela nasce da necessidade de proporcionar aos jovens um lugar onde possam falar sobre sexualidade como Gisela o fez. Gisela nasce no passado para encarar o presente, nasce para possibilitar um ambiente seguro, confiável, confortável onde os novos jovens possam discutir sobre sexualidade mediante nova perspetiva, a perspetiva de Gisela. A liberdade, a ingenuidade, a segurança, a partilha são alguns dos valores que Gisela pretende transmitir. Neste sentido, Gisela nasce para proporcionar aos jovens e futuros jovens uma nova leitura sobre o tema da sexualidade, sem esquecer por completo toda a história da nossa matéria de estudo, o testemunho que Gisela nos deixou.",
-        "link": "(ver ensaio visual aqui)",
+        "linkgisela": "(ver site aqui)",
         "src": [
             "/public/img/logogisela.png",
-            "/public/img/gisela.png"
+            "/public/img/giselap3.jpg",
+            "/public/img/giselap5.jpg",
+            "/public/img/giselap4.jpg",
+            "/public/img/giselap6.jpg",
+            "/public/img/giselap1.jpg"
         ],
         "categories": "instalacao | editorial | web",
         "year": "2024",
@@ -138,7 +142,7 @@
         "title": "Luca Zangrandi",
         "btn": "(fechar)",
         "text": "design e programacao do website. cliente: Luca Zangrandi.",
-        "link2": "(visitar website)",
+        "linkluca": "(visitar website)",
         "src": [
             "/public/img/sitelucamockupp1.png",
             "/public/img/sitelucamockupp2.png"

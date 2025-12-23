@@ -61,6 +61,8 @@ function ProjectView() {
           <h1 className="text-3xl pb-4 md:pt-[1em]">{project.title}</h1>
 
           <p className="whitespace-pre-line text-right pb-8">{project.text}</p>
+          <a className="whitespace-pre-line text-right pb-8 text-[#000000] hover:blur-[.1rem]" href="https://gisela2024.cargo.site/" target="_blank">{project.linkgisela}</a>
+          <a className="whitespace-pre-line text-right pb-8 text-[#000000] hover:blur-[.1rem]" href="https://lucazangrandi.com" target="_blank">{project.linkluca}</a>
 
           {project.src?.map((img, index) => (
             <img
