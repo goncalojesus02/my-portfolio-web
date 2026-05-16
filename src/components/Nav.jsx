@@ -17,7 +17,7 @@ function PagNav() {
   return (
     <>
       {/* MAPEAMENTO DOS SEPARATORS JSON TITULOS DOS PROJETOS COM REF A ID */}
-      <section className="p-[0.4rem] relative flex flex-col items-start">
+      <section className="p-[0.3rem] relative flex flex-col items-start">
         {reverse.map((project) => (
           <Link key={project.id} href={`/arquive/project/${project.id}`}>
             <button className="w-full text-left md:flex flex-row items-start text-black hover:opacity-60 hover:blur-[0.1em] mx-[0.4rem] cursor-crosshair"

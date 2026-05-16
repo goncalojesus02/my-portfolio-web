@@ -141,7 +141,7 @@
         "separators": " ↗ Luca Zangrandi (2025)",
         "title": "Luca Zangrandi",
         "btn": "(fechar)",
-        "text": "design e programacao do website. cliente: Luca Zangrandi.",
+        "text": "design e programacao do website. \n cliente: Luca Zangrandi.",
         "linkluca": "(visitar website)",
         "src": [
             "/public/img/sitelucamockupp1.png",
@@ -197,15 +197,25 @@
         "info": "(+ info)"
     },
     {
-        "id": 14,
+       "id": 14,
         "separators": " ↗ Gonçalo Jesus ",
-        "title": "Gonçalo Jesus",
+        "contact1": "GJ - Gonçalo Jesus" ,
+        "contact2": "gvffjesus@gmail.com",
+        "contact3": "@goncaloffjesus",
         "btn": "(fechar)",
         "src": [
             "/public/img/goncalojesus.jpg"
         ],
-        "text1": "Formação em Artes do Espetáculo e em Design de Comunicação pela Faculdade de Belas-Artes da Universidade de Lisboa. O foco da minha formação assenta na interseção entre as áreas da imagem, do texto e da performance, explorando o seu potencial visual e educativo. \n \n Interesso-me também pelas áreas da web (HTML, CSS e JavaScript), da imagem e da fotografia analógica. Como designer, desenvolvo soluções criativas com base conceptual, pragmática e experimental. Valorizo o processo criativo e acredito que a experimentação gera objetos gráficos relevantes e significativos.",
-        "text2": "SERVIÇOS  \n ↗ comunicação visual  \n ↗ identidade visual & marca \n ↗ design editorial \n ↗ poster design \n ↗ web design  \n  ↗ web development \n ↗ programming & coding",
+        "text1": "Gonçalo Vaz Ferreira Fernandes de Jesus \n (atualmente a trabalhar em Lisboa, Portugal) \n \n Comunicativo, criativo e pragmático na execução de tarefas, sem esquecer o profissionalismo e a honestidade que pautam a forma de encarar o trabalho. \n O foco do meu trabalho assenta nas áreas de identidade visual, publicação e web development explorando o seu potencial visual, educativo e tecnológico.",
+        "work": "Trabalho \n  Randstad Portugal (2025__atualmente)  \n  Luca Zangrandi (2025)",
+        "education": "Educação \n FLAG - Formação em Front-End Web Development (2025__2025) \n Licenciatura em Design de Comunicação (2021__2024)",
+        "linebreake1": "<- - - - - - ->",
+        "text2": "Serviços  \n ↗ comunicação visual  \n ↗ identidade visual & marca \n ↗ design editorial \n ↗ poster design \n ↗ web design  \n  ↗ web development \n ↗ programming & coding",
+        "text3": "Trabalhei para \n  ↗ Luca Zangrandi",
+        "contactlinks1": "Linkedin",
+        "contactlinks2": "Instagram",
+        "contactlink3": "Email",
+        "contactlink4": "PDF CV",
         "categories": "WIP",
         "year": "© 2026 by Gonçalo Jesus",
         "btn2": "(proximo)",
