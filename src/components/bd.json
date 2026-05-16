@@ -152,20 +152,7 @@
         "btn2": "(proximo)",
         "info": "(+ info)"
     },
-    {
-        "id": 12,
-        "separators": "↗ The Jesus Designed By The Divine (2025)",
-        "title": "The Jesus Designed By The Divine",
-        "btn": "(fechar)",
-        "text": "identidade visual e marca de gonçalo jesus ",
-        "src": [
-            "/public/img/logothejesus.png"
-        ],
-        "categories": "design identidadade",
-        "year": "2025",
-        "btn2": "(proximo)",
-        "info": "(+ info)"
-    },
+    
     {
         "id": 13,
         "separators": "↗ WIP 01",
@@ -211,8 +198,8 @@
     },
     {
         "id": 14,
-        "separators": " ↗ GONÇALO JESUS ",
-        "title": "GONÇALO JESUS",
+        "separators": " ↗ Gonçalo Jesus ",
+        "title": "Gonçalo Jesus",
         "btn": "(fechar)",
         "src": [
             "/public/img/goncalojesus.jpg"
@@ -220,7 +207,7 @@
         "text1": "Formação em Artes do Espetáculo e em Design de Comunicação pela Faculdade de Belas-Artes da Universidade de Lisboa. O foco da minha formação assenta na interseção entre as áreas da imagem, do texto e da performance, explorando o seu potencial visual e educativo. \n \n Interesso-me também pelas áreas da web (HTML, CSS e JavaScript), da imagem e da fotografia analógica. Como designer, desenvolvo soluções criativas com base conceptual, pragmática e experimental. Valorizo o processo criativo e acredito que a experimentação gera objetos gráficos relevantes e significativos.",
         "text2": "SERVIÇOS  \n ↗ comunicação visual  \n ↗ identidade visual & marca \n ↗ design editorial \n ↗ poster design \n ↗ web design  \n  ↗ web development \n ↗ programming & coding",
         "categories": "WIP",
-        "year": "© 2026 by GONÇALO JESUS",
+        "year": "© 2026 by Gonçalo Jesus",
         "btn2": "(proximo)",
         "info": "(+ info)"
     }
