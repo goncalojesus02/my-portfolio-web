@@ -34,7 +34,7 @@ function ProjectView() {
 
   if (!project) return <section></section>; // SE O PROJETO FOR NULO MOSTRA SECCAO VAZIA
   return (
-    <section className="p-[0.4rem] text-[#000000]">
+    <section className="p-[0.4rem] pt-[0.8rem] text-[#000000]">
       {/* RENDERIZAR NOVA COMPONENTE ABOUTVIEW SE ID FOR 13, SE FOR DIFERENTE RENDERIZA PAGINA NORMAL E MOSTRA BTN TITULO TEXTO IMG... O CONTEUDO DO PROJETO  */}
       {project.id === 14 ? (
         <AboutView project={project} />
@@ -58,7 +58,7 @@ function ProjectView() {
             </button>
           )}
 
-          <h1 className="text-3xl pb-4 md:pt-[1em]">{project.title}</h1>
+          <h1 className="text-3xl pb-4 pt-[2rem] md:pt-[1em]">{project.title}</h1>
 
           <p className="whitespace-pre-line text-right pb-8">{project.text}</p>
           <a className="whitespace-pre-line text-right pb-8 text-[#000000] hover:blur-[.1rem]" href="https://gisela2024.cargo.site/" target="_blank">{project.linkgisela}</a>
